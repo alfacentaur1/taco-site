@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <header>
+        <h1>
+            Contact us
+        </h1>
+    </header>
+    <main>
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Your ids</legend>
+                <label for="firstName">First Name:</label>
+                <input type="text" placeholder = "Filip" required name="firstName" id="firstName">
+                <label for="lastName">Last Name:</label>
+                <input type="text" placeholder = "Filip" required name="lastName" id="lastName">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Type of message</legend>
+                <select name="typeOfMessage" id="typeOfMessage">
+                    <option value="report">Report</option>
+                    <option value="career">Career</option>
+                    <option value="other">Other</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Your message</legend>
+                <textarea name="message" id="message" cols="50" rows="15"></textarea>
+            </fieldset>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </main>
+    </body>
+</html>
